@@ -1,4 +1,6 @@
 import random
+
+while True:
 #takes the user choice from the input choice lists
 user_action = input("Enter a choice(rock, paper, scissors):\t")
 #Make the computer choice by using random.choice() function
@@ -24,3 +26,7 @@ elif user_action == "scissors":
         print("Scissors cuts paper! You win!")
     else:
         print("Rock smashes scissors! You lose.")
+
+        play_again = input("Play again? (y/n): ")
+    if play_again.lower() != "y":
+        break
