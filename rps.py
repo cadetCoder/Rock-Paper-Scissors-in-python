@@ -27,6 +27,6 @@ while True:
       else:
           print("Rock smashes scissors! You lose.")
 #play several games in a row
-          play_again = input("Play again? (y/n): ")
-      if play_again.lower() != "y":
-          break
+  play_again = input("Play again? (y/n): ")
+  if play_again.lower() != "y":
+      break
