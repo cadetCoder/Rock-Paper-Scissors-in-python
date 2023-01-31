@@ -1,3 +1,4 @@
+#use import random when computer plays 
 import random
 
 while True:
